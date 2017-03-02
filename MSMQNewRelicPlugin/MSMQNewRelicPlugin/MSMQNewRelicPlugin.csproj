@@ -138,11 +138,11 @@
       <ZipFiles Include="config" />
       <ZipFiles Include="*$(OutputPath)plugin.exe" />
     </ItemGroup>
-    <MakeDir Directories="..\com.truemark.plugin.msmq\newrelic-msmq-plugin" />
-    <MakeDir Directories="..\com.truemark.plugin.msmq\newrelic-msmq-plugin\config" />
-    <Copy SourceFiles="@(ConfigFile)" DestinationFolder="..\com.truemark.plugin.msmq\newrelic-msmq-plugin\config" />
-    <Copy SourceFiles="@(ExeFile)" DestinationFolder="..\com.truemark.plugin.msmq\newrelic-msmq-plugin" />
-    <Zip ZipFileName="..\plugin.zip" WorkingDirectory="..\MSMQNewRelicPlugin\bin\Release\" Files="..\com.truemark.plugin.msmq" />
+    <MakeDir Directories="..\newrelic-msmq-plugin" />
+    <MakeDir Directories="..\newrelic-msmq-plugin\config" />
+    <Copy SourceFiles="@(ConfigFile)" DestinationFolder="..newrelic-msmq-plugin\config" />
+    <Copy SourceFiles="@(ExeFile)" DestinationFolder="..\newrelic-msmq-plugin" />
+    <Zip ZipFileName="..\newrelic-msmq-plugin-1.0.0.zip" WorkingDirectory="..\MSMQNewRelicPlugin\bin\Release\" Files="@(ZipFiles)" />
   </Target>
   <Import Project="..\packages\Fody.1.29.4\build\dotnet\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\dotnet\Fody.targets')" />
 </Project>
