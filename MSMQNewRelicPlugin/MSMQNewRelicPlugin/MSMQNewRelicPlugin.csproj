@@ -67,13 +67,13 @@
       <HintPath>..\packages\MSBuildTasks.1.5.0.235\tools\MSBuild.Community.Tasks.dll</HintPath>
     </Reference>
     <Reference Include="NewRelic.Platform.Sdk">
-      <HintPath>..\..\..\..\..\Downloads\newrelic_platform_dotnet_sdk_v1.0.0.1\newrelic_platform_dotnet_sdk_v1.0.0.1\newrelic_platform_dotnet_sdk_v1.0.0.1\NewRelic.Platform.Sdk.dll</HintPath>
+      <HintPath>Z:\Downloads\newrelic_dotnet_sdk-master\dist\newrelic_platform_dotnet_sdk_v1.0.0.1\newrelic_platform_dotnet_sdk_v1.0.0.1\NewRelic.Platform.Sdk.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\..\Downloads\newrelic_platform_dotnet_sdk_v1.0.0.1\newrelic_platform_dotnet_sdk_v1.0.0.1\newrelic_platform_dotnet_sdk_v1.0.0.1\Newtonsoft.Json.dll</HintPath>
+      <HintPath>Z:\Downloads\newrelic_dotnet_sdk-master\dist\newrelic_platform_dotnet_sdk_v1.0.0.1\newrelic_platform_dotnet_sdk_v1.0.0.1\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="NLog">
-      <HintPath>..\..\..\..\..\Downloads\newrelic_platform_dotnet_sdk_v1.0.0.1\newrelic_platform_dotnet_sdk_v1.0.0.1\newrelic_platform_dotnet_sdk_v1.0.0.1\NLog.dll</HintPath>
+      <HintPath>Z:\Downloads\newrelic_dotnet_sdk-master\dist\newrelic_platform_dotnet_sdk_v1.0.0.1\newrelic_platform_dotnet_sdk_v1.0.0.1\NLog.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -133,10 +133,16 @@
   <Import Project="..\packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets" />
   <Target Name="Zip" AfterTargets="build">
     <ItemGroup>
+      <ExeFile Include="*$(OutputPath)plugin.exe" />
+      <ConfigFile Include="*$(OutputPath)config\*.*" />
       <ZipFiles Include="config" />
       <ZipFiles Include="*$(OutputPath)plugin.exe" />
     </ItemGroup>
-    <Zip ZipFileName="..\plugin.zip" WorkingDirectory="..\MSMQNewRelicPlugin\bin\Release\" Files="@(ZipFiles)" />
+    <MakeDir Directories="..\com.truemark.plugin.msmq\newrelic-msmq-plugin" />
+    <MakeDir Directories="..\com.truemark.plugin.msmq\newrelic-msmq-plugin\config" />
+    <Copy SourceFiles="@(ConfigFile)" DestinationFolder="..\com.truemark.plugin.msmq\newrelic-msmq-plugin\config" />
+    <Copy SourceFiles="@(ExeFile)" DestinationFolder="..\com.truemark.plugin.msmq\newrelic-msmq-plugin" />
+    <Zip ZipFileName="..\plugin.zip" WorkingDirectory="..\MSMQNewRelicPlugin\bin\Release\" Files="..\com.truemark.plugin.msmq" />
   </Target>
   <Import Project="..\packages\Fody.1.29.4\build\dotnet\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\dotnet\Fody.targets')" />
 </Project>

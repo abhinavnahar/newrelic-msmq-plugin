@@ -34,15 +34,3 @@ C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\
 \\vmware-host\Shared Folders\Downloads\MSMQ\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Debug\MSBuild.Community.Tasks.xml
 \\vmware-host\Shared Folders\Downloads\MSMQ\MSMQNewRelicPlugin\MSMQNewRelicPlugin\obj\Debug\plugin.exe
 \\vmware-host\Shared Folders\Downloads\MSMQ\MSMQNewRelicPlugin\MSMQNewRelicPlugin\obj\Debug\plugin.pdb
-C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Debug\config\newrelic.template.json
-C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Debug\config\plugin.template.json
-C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Debug\plugin.exe.config
-C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Debug\plugin.exe
-C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Debug\plugin.pdb
-C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Debug\BuildTasks.dll
-C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Debug\Microsoft.Build.Framework.dll
-C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Debug\MSBuild.Community.Tasks.dll
-C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Debug\MSBuild.Community.Tasks.xml
-C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\obj\Debug\MSMQNewRelicPlugin.csprojResolveAssemblyReference.cache
-C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\obj\Debug\plugin.exe
-C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\obj\Debug\plugin.pdb

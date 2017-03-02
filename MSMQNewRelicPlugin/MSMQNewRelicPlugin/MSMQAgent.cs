@@ -9,7 +9,7 @@ namespace MSMQNewRelicPlugin
 {
     class MSMQAgent : Agent
     {
-        public override string Guid { get { return "com.truemark.msmqplugin"; } }
+        public override string Guid { get { return "com.truemark.plugin.msmq"; } }
 
         public override string Version { get { return "1.0.0"; } }
 
