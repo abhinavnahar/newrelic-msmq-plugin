@@ -1,0 +1,35 @@
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\config\newrelic.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\config\plugin.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\plugin.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\plugin.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\plugin.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\BuildTasks.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\Microsoft.Build.Framework.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\Microsoft.Build.Tasks.Core.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\Microsoft.Build.Utilities.Core.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\Microsoft.Management.Infrastructure.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\MSBuild.Community.Tasks.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\NewRelic.Platform.Sdk.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\NLog.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\MSBuild.Community.Tasks.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\NewRelic.Platform.Sdk.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\NewRelic.Platform.Sdk.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\NLog.xml
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\obj\Release\plugin.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\obj\Release\plugin.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\config\newrelic.template.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\config\plugin.template.json
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\MSMQNewRelicPlugin\MSMQNewRelicPlugin\obj\Release\MSMQNewRelicPlugin.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Downloads\MSMQ\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\config\newrelic.template.json
+\\vmware-host\Shared Folders\Downloads\MSMQ\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\config\plugin.template.json
+\\vmware-host\Shared Folders\Downloads\MSMQ\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\plugin.exe.config
+\\vmware-host\Shared Folders\Downloads\MSMQ\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\plugin.exe
+\\vmware-host\Shared Folders\Downloads\MSMQ\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\plugin.pdb
+\\vmware-host\Shared Folders\Downloads\MSMQ\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\BuildTasks.dll
+\\vmware-host\Shared Folders\Downloads\MSMQ\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\Microsoft.Build.Framework.dll
+\\vmware-host\Shared Folders\Downloads\MSMQ\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\MSBuild.Community.Tasks.dll
+\\vmware-host\Shared Folders\Downloads\MSMQ\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\MSBuild.Community.Tasks.xml
+\\vmware-host\Shared Folders\Downloads\MSMQ\MSMQNewRelicPlugin\MSMQNewRelicPlugin\obj\Release\plugin.exe
+\\vmware-host\Shared Folders\Downloads\MSMQ\MSMQNewRelicPlugin\MSMQNewRelicPlugin\obj\Release\plugin.pdb
