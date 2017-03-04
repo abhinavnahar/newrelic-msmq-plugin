@@ -17,7 +17,7 @@ namespace MSMQNewRelicPlugin
             string username = (string)properties["username"];
             string password = (string)properties["password"];
          
-            return new MSMQAgent(name, host, domain, username, "Tow1greth0");
+            return new MSMQAgent(name, host, domain, username, password);
         }
     }
 }

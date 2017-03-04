@@ -96,7 +96,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="config\newrelic.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="config\newrelic.template.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="config\plugin.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\plugin.template.json">
@@ -142,7 +148,7 @@
     <MakeDir Directories="..\newrelic-msmq-plugin\config" />
     <Copy SourceFiles="@(ConfigFile)" DestinationFolder="..newrelic-msmq-plugin\config" />
     <Copy SourceFiles="@(ExeFile)" DestinationFolder="..\newrelic-msmq-plugin" />
-    <Zip ZipFileName="..\newrelic-msmq-plugin-1.0.0.zip" WorkingDirectory="..\MSMQNewRelicPlugin\bin\Release\" Files="@(ZipFiles)" />
+    <Zip ZipFileName="..\com.truemark.newrelic.msmqplugin.zip" WorkingDirectory="..\MSMQNewRelicPlugin\bin\Release\" Files="..\newrelic-msmq-plugin" />
   </Target>
   <Import Project="..\packages\Fody.1.29.4\build\dotnet\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\dotnet\Fody.targets')" />
 </Project>

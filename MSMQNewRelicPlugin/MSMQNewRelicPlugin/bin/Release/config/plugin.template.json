@@ -1,11 +1,130 @@
 {
   "agents": [
     {
-      "name": "Agent Name",
-      "host": "Host Name",
-      "domain": "Domain",
-      "username": "Username For Windows Account",
-      "password": "Password For Windows Account"
+      "name": "LEI-NSB-PRD-185",
+      "host": "LEI-NSB-PRD-185",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "UpLEI-ACL-PRD-52",
+      "host": "UpLEI-ACL-PRD-52",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "UpLEI-ACL-PRD-53",
+      "host": "UpLEI-ACL-PRD-53",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "UpLEI-ACL-PRD-54",
+      "host": "UpLEI-ACL-PRD-54",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "UpLEI-IIS-PRD-11",
+      "host": "UpLEI-IIS-PRD-11",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "Uplei-iis-prd-12",
+      "host": "Uplei-iis-prd-12",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "UpLEI-IIS-PRD-13",
+      "host": "UpLEI-IIS-PRD-13",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "UpLEI-IIS-PRD-14",
+      "host": "UpLEI-IIS-PRD-14",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "Uplei-iis-prd-15",
+      "host": "Uplei-iis-prd-15",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "UpLEI-IIS-PRD-16",
+      "host": "UpLEI-IIS-PRD-16",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "Uplei-nsb-prd-184",
+      "host": "Uplei-nsb-prd-184",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "UpLEI-NSB-PRD-186",
+      "host": "UpLEI-NSB-PRD-186",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "UpSLC-ACL-PRD-01",
+      "host": "UpSLC-ACL-PRD-01",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "UpSLC-ACL-PRD-02",
+      "host": "UpSLC-ACL-PRD-02",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "UpSLC-ACL-PRD-03",
+      "host": "UpSLC-ACL-PRD-03",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "UpSLC-NSB-PRD-01",
+      "host": "UpSLC-NSB-PRD-01",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "UpSLC-NSB-PRD-02",
+      "host": "UpSLC-NSB-PRD-02",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
+    },
+    {
+      "name": "UpSLC-NSB-PRD-03",
+      "host": "UpSLC-NSB-PRD-03",
+      "domain": "yleo.us",
+      "username": "svc-newrelic",
+      "password": "nR@pPm0N5yS0217"
     }
   ]
 }

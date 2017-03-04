@@ -30,10 +30,11 @@ namespace MSMQNewRelicPlugin
 
         public override void PollCycle()
         {
+            
             MSMQConnectSession connection = MSMQConnectionUtil.connect(this.host, this.domain, this.username, this.password);
             MSMQServiceMeteric serviceMetric = connection.getMSMQServiceMetric();
             List<MSMQMeteric> msmqMetric = connection.getMSMQMetric();
-            Console.WriteLine("reporting meteric");
+            Console.WriteLine("reporting meteric" + GetAgentName());
             ReportMetric("ALL/" + MSMQServiceMeteric.incomingMessagesPerSecLabel, "Messages Per Second", float.Parse(serviceMetric.IncomingMessagesPerSec.ToString()));
             ReportMetric("ALL/" + MSMQServiceMeteric.incomingMultiCastSessionsLabel, "Session", float.Parse(serviceMetric.IncomingMultiCastSessions.ToString()));
             ReportMetric("ALL/" + MSMQServiceMeteric.ipSessionsLabel, "Session", float.Parse(serviceMetric.IpSessions.ToString()));
@@ -47,10 +48,12 @@ namespace MSMQNewRelicPlugin
             ReportMetric("ALL/" + MSMQServiceMeteric.totalMessagesInAllqueuesLabel, "Message", float.Parse(serviceMetric.TotalMessagesInAllQueues.ToString()));
 
             foreach (MSMQMeteric m in msmqMetric) {
+                
                 ReportMetric(m.Name + "/" + MSMQMeteric.bytesInJournalQueueLabel, "Bytes", float.Parse(m.BytesInJournalQueue.ToString()));
                 ReportMetric(m.Name + "/" + MSMQMeteric.bytesInQueueLabel, "Bytes", float.Parse(m.BytesInQueue.ToString()));
                 ReportMetric(m.Name + "/" + MSMQMeteric.messagesInJournalQueueLabel, "Message", float.Parse(m.MessagesInJournalQueue.ToString()));
                 ReportMetric(m.Name + "/" + MSMQMeteric.messagesInQueueLabel, "Message", float.Parse(m.MessagesInQueue.ToString()));
+                Console.WriteLine(m.Name);
             }
          }
     }

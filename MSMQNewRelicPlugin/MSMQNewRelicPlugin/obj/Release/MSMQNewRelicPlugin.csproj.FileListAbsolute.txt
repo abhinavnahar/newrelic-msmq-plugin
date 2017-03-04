@@ -51,3 +51,5 @@ C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRe
 C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\NLog.xml
 C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\obj\Release\plugin.exe
 C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\obj\Release\plugin.pdb
+C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\config\newrelic.json
+C:\Users\user\Documents\GitHub\newrelic-msmq-plugin\MSMQNewRelicPlugin\MSMQNewRelicPlugin\bin\Release\config\plugin.json
