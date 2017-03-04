@@ -146,7 +146,7 @@
     </ItemGroup>
     <MakeDir Directories="..\newrelic-msmq-plugin" />
     <MakeDir Directories="..\newrelic-msmq-plugin\config" />
-    <Copy SourceFiles="@(ConfigFile)" DestinationFolder="..newrelic-msmq-plugin\config" />
+    <Copy SourceFiles="@(ConfigFile)" DestinationFolder="..\newrelic-msmq-plugin\config" />
     <Copy SourceFiles="@(ExeFile)" DestinationFolder="..\newrelic-msmq-plugin" />
     <Zip ZipFileName="..\com.truemark.newrelic.msmqplugin.zip" WorkingDirectory="..\MSMQNewRelicPlugin\bin\Release\" Files="..\newrelic-msmq-plugin" />
   </Target>
